@@ -12,7 +12,7 @@ class Nav extends Component {
                                 <img src="/logo.svg" className="acm-logo"/>
                             </div>
                             <div id="logo-text">
-                                <h3 id="title-text">GPU CLUSTER</h3>
+                                <h3 id="title-text">Clearwaters Frontend</h3>
                             </div>
                         </a>
                     </div>
