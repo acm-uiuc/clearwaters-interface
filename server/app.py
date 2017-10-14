@@ -5,7 +5,8 @@ import socket
 
 app = Flask(__name__)
 
-TCP_IP = 'clearwaters-000'
+#TCP_IP = 'clearwaters-000'
+TCP_IP = '172.17.0.1'
 TCP_PORT = 8888
 PORT= 5000
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
