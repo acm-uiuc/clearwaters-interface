@@ -14,7 +14,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 def hello():
     return jsonify('Welcome to the Cluster API')
 
-@app.route('/run_job', methods=['POST'])
+@app.route('/run_job', methods=['GET'])
 def run_job():
     s.connect((TCP_IP, TCP_IP))
     s.send({'CMD': 'TEST'})
