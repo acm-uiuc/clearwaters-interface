@@ -16,7 +16,7 @@ def hello():
 
 @app.route('/run_job', methods=['GET'])
 def run_job():
-    s.connect((TCP_IP, TCP_IP))
+    s.connect((TCP_IP, TCP_PORT))
     s.send({'CMD': 'TEST'})
     data = s.recv(4096)
     s.close()
